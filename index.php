@@ -16,6 +16,7 @@ include('protect.php');
     <header>
         <nav>
             <ul>
+                <li>Bem vindo, <?php echo $_SESSION['nome']; ?>.</li>
                 <li><a href="#">Página Inicial</a></li>
                 <li><a href="#">Provas</a></li>
                 <li><a href="#">sobre</a></li>
